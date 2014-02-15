@@ -12,6 +12,8 @@ var usage = `deck {"n"|"k"} N K n/k
 
 N is the number of cards in the deck.
 K is the number of lands in the deck.
+n is the number of cards drawn.
+k is the number of lands drawn.
 If the support is n, then n/k is k, the pmf is the probability of drawing the
 kth land on the nth draw, and the cdf is the probability of k within n draws.
 If the support is k, then n/k is n, the pmf is the probability of drawing
